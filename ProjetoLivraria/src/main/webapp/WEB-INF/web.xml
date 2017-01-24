@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HelloServelet</display-name>
+    <servlet-name>HelloServelet</servlet-name>
+    <servlet-class>com.threeway.HelloServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServelet</servlet-name>
+    <url-pattern>/HelloServelet</url-pattern>
+  </servlet-mapping>
 </web-app>
