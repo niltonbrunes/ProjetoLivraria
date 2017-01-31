@@ -8,5 +8,5 @@ public class Livro {
 	private String imagem;
 	private String descricao;
 	
-	// getter e setters omitidos
+	// Getter e setters omitidos
 }
